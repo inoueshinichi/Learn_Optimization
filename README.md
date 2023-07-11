@@ -31,15 +31,27 @@
 
 ### ヤコビ行列(ヤコビアン)
 + ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした関数群 $f_{1}(\boldsymbol{x}), f_{2}(\boldsymbol{x}),..., f_{n}(\boldsymbol{x})$ を考える.
++ 多変数関数の1回微分(行ベクトル)の列ベクトル
+```math
+\begin{eqnarray}
+    \boldsymbol{J}(\boldsymbol{x}) \in R^{n \cross d} &=&
+    \begin{pmatrix}
+        \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}{dx_{d}(\boldsymbol{x}) \\
+        \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}{dx_{d}(\boldsymbol{x}) \\
+        \vdots \\
+        \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}{dx_{d}(\boldsymbol{x})
+    \end{pmatrix}
+\end{eqnarray}
+```
 
 ## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
 ```math
 \begin{eqnarray}
     f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}(\boldsymbol{x} - \boldsymbol{a})^{n} \
     &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a}) + \frac{f^{''}(\boldsymbol{a})}{2!}(\boldsymbol{x} - \boldsymbol{a})^{2}
-    + \frac{f^{'''}(\boldsymbol{a})}{3!}(\boldsymbol{x} - \boldsymbol{a})^3 + ・・・ \
+    + \frac{f^{'''}(\boldsymbol{a})}{3!}(\boldsymbol{x} - \boldsymbol{a})^3 + \cdots \
     &=& \sum^{\infty}_{n=0}(\nabla)^{n}f(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a})^{n}
-    \nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, ..., \frac{\partial}{\partial x_{d}})
+    \nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
 
 \end{eqnarray}
 ```
