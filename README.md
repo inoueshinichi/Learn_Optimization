@@ -36,10 +36,10 @@
 ```math
 \boldsymbol{J}(\boldsymbol{x}) =
 \begin{pmatrix}
-    \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}{dx_{d}}(\boldsymbol{x}) \\
-    \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}{dx_{d}}(\boldsymbol{x}) \\
+    \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}}{dx_{d}}(\boldsymbol{x}) \\
+    \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}}{dx_{d}}(\boldsymbol{x}) \\
     \vdots \\
-    \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}{dx_{d}}(\boldsymbol{x})
+    \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}}{dx_{d}}(\boldsymbol{x})
 \end{pmatrix}
 ```
 
