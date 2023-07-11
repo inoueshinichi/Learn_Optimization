@@ -31,7 +31,7 @@
     \frac{dy}{dt} &=& -6x
 \end{eqnarray}
 ```
-+ 関数yに対するパラメータを $\boldsymbol{t},\boldsymbol{x}$とするとき, $\frac{\partial y}{\partial x}$ , $\frac{\partial y}{\partial x}$ と各パラメータの微分値(勾配)を求めることをバックプロパゲーション法と呼ぶ.
++ 関数yに対するパラメータを $\boldsymbol{t},\boldsymbol{x}$とするとき, $\frac{dy}{\boldsymbol{x}}$ , $\frac{dy}{d\boldsymbol{t}}=\frac{dy}{d\boldsymbol{x}*\frac{d\boldsymbol{x}{d\boldsymbol{t}}$ と各パラメータの微分値(勾配)を求めることをバックプロパゲーション法と呼ぶ.
 
 ### 数値微分
 + 愚直法
