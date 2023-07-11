@@ -30,7 +30,7 @@
 + Runge-Kutta法(1次,2次,3次,4次) (デファクトスタンダード)
 
 ### ヤコビ行列(ヤコビアン)
-+ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした関数群 $ f_{1}(\boldsymbol{x}), f_{2}(\boldsymbol{x}),..., f_{n}(\boldsymbol{x}) $ を考える.
++ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした関数群 $f_{1}(\boldsymbol{x}), f_{2}(\boldsymbol{x}),..., f_{n}(\boldsymbol{x})$ を考える.
 
 ## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
 ```math
