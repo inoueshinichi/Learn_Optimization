@@ -30,7 +30,8 @@
     f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}(\boldsymbol{x} - \boldsymbol{a})^{n} \
     &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a}) + \frac{f^{''}(\boldsymbol{a})}{2!}(\boldsymbol{x} - \boldsymbol{a})^{2}
     + \frac{f^{'''}(\boldsymbol{a})}{3!}(\boldsymbol{x} - \boldsymbol{a})^3 + ・・・ \
-    &=& \sum^{\infty}_{n=0}(\nabla)^{n}f(\boldsymbol{a})
+    &=& \sum^{\infty}_{n=0}(\nabla)^{n}f(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a})^{n}
+    \nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, ..., \frac{\partial}{\partial x_{d}})
 
 \end{eqnarray}
 ```
