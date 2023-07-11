@@ -3,7 +3,11 @@
 ## 参考
 
 ## 解析微分公式(導関数)
-
+```math
+    f'(\boldsymbol{x})= \lim_{h \to 0} \ \frac{f(\boldsymbol{x}-h) - f(\boldsymbol{x})}{h}
+```
++ 分子の差分値 $f(\boldsymbol{x} - h) - f(\boldsymbol{x})$ で, 桁落ちするので精度が低い微分値を算出する.
++ できるだけ解析微分公式(導関数)を用いて微分値を算出すべき.
 
 ## 数値微分
 + 愚直法
