@@ -9,9 +9,22 @@
 + 分子の差分値 $f(\boldsymbol{x} - h) - f(\boldsymbol{x})$ で, 桁落ちするので精度が低い微分値を算出する.
 + できるだけ解析微分公式(導関数)を用いて微分値を算出すべき.
 
+## 微分の連鎖律
+```math
+\begin{eqnarray}
+    y &=& f(x), x = g(t)
+    \
+    \frac{dy}{dt} &=& \frac{dy}{dt} * \frac{dt}{dx}
+    \
+    y &=& (1 - \boldsymbol{x})^{2}, x = 3t + 2 \tag{e.g}
+    \
+    \frac{dy}{dt} &=& -2x, \frac{dx}{dt} = 3
+\end{eqnarray}
+```
+
 ## 数値微分
 + 愚直法
-+ ルンゲクッタ法
++ Runge-Kutta法(1次,2次,3次,4次) (デファクトスタンダード)
 
 ## 数値積分
 + ニュートン・コーツ法
