@@ -4,9 +4,9 @@
 
 ## 解析微分公式(導関数)
 ```math
-    f'(\boldsymbol{x})= \lim_{h \to 0} \ \frac{f(\boldsymbol{x}-h) - f(\boldsymbol{x})}{h}
+    f'(\boldsymbol{x})= \lim_{\boldsymbol{h} \to \boldsymbol{0}} \ \frac{f(\boldsymbol{x}-\boldsymbol{h}) - f(\boldsymbol{x})}{\boldsymbol{h}}
 ```
-+ 分子の差分値 $f(\boldsymbol{x} - h) - f(\boldsymbol{x})$ で, 桁落ちするので精度が低い微分値を算出する.
++ 分子の差分値 $f(\boldsymbol{x} - \boldsymbol{h}) - f(\boldsymbol{x})$ で, 桁落ちするので精度が低い微分値を算出する.
 + できるだけ解析微分公式(導関数)を用いて微分値を算出すべき.
 
 ## 微分の連鎖律
@@ -27,7 +27,9 @@
 ## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
 ```math
 \begin{eqnarray}
-    f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a}}{n!}
+    f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}(\boldsymbol{x} - \boldsymbol{a})^{n} \
+    &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a}) + \frac{f^{''}(\boldsymbol{a})}{2!}(\boldsymbol{x} - \boldsymbol{a})^{2}
+    + \frac{f^{'''}}(\boldsymbol{a}{3!}(\boldsymbol{x} - \boldsymbol{a})^3 + ・・・
 
 \end{eqnarray}
 ```
