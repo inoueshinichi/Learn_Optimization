@@ -34,15 +34,13 @@
 + 多変数関数の1回微分(行ベクトル)の列ベクトル
   
 ```math
-\begin{eqnarray}
-    \boldsymbol{J}(\boldsymbol{x}) \in R^{n \cross d} &=&
-    \begin{pmatrix}
-        \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}{dx_{d}(\boldsymbol{x}) \\
-        \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}{dx_{d}(\boldsymbol{x}) \\
-        \vdots \\
-        \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}{dx_{d}(\boldsymbol{x})
-    \end{pmatrix}
-\end{eqnarray}
+\boldsymbol{J}(\boldsymbol{x}) \in R^{n \cross d} =
+\begin{pmatrix}
+    \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}{dx_{d}(\boldsymbol{x}) \\
+    \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}{dx_{d}(\boldsymbol{x}) \\
+    \vdots \\
+    \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}{dx_{d}(\boldsymbol{x})
+\end{pmatrix}
 ```
 
 ## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
