@@ -36,10 +36,23 @@
 ```math
 \boldsymbol{J}(\boldsymbol{x}) =
 \begin{pmatrix}
-    \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{1}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{1}}{dx_{d}}(\boldsymbol{x}) \\
-    \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{2}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{2}}{dx_{d}}(\boldsymbol{x}) \\
-    \vdots \\
-    \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \frac{df_{n}}{dx_{2}}(\boldsymbol{x}) & \cdots & \frac{df_{n}}{dx_{d}}(\boldsymbol{x})
+    \frac{df_{1}}{dx_{1}}(\boldsymbol{x}) & \cdots & \frac{df_{1}}{dx_{d}}(\boldsymbol{x}) \\
+    \frac{df_{2}}{dx_{1}}(\boldsymbol{x}) & \cdots & \frac{df_{2}}{dx_{d}}(\boldsymbol{x}) \\
+    \vdots \\ & \ddots & \vdots \\
+    \frac{df_{n}}{dx_{1}}(\boldsymbol{x}) & \cdots & \frac{df_{n}}{dx_{d}}(\boldsymbol{x})
+\end{pmatrix}
+```
+
+### ヘッセ行列(ヘシアン)
++ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした多変数関数 $ f(\boldsymbol{x}) $ を考える
++ 多変数関数 $ f(\boldsymbol{x}) $ の2回微分
++ $\boldsymbol{H}(\boldsymbol{x}) \in R^{ d \times d}$
+```math
+\boldsymbol{H}(\boldsymbol{x}) =
+\begin{pmatrix}
+    \frac{df}{dx_{1}dx_{1}} & \cdots & \frac{df}{dx_{1}dx_{d}} \\
+    \frac{df}{dx_{2}dx_{1}} & \ddots & \frac{df}{dx_{2}dx_{n}} \\
+    \frac{df}{dx_{d}dx_{1}} & \cdots & \frac{df}{dx_{d}dx_{d}}
 \end{pmatrix}
 ```
 
