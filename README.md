@@ -2,14 +2,15 @@
 
 ## 参考
 
-## 解析微分公式(導関数)
+## 微分
+### 解析微分公式(導関数)
 ```math
     f'(\boldsymbol{x})= \lim_{\boldsymbol{h} \to \boldsymbol{0}} \ \frac{f(\boldsymbol{x}-\boldsymbol{h}) - f(\boldsymbol{x})}{\boldsymbol{h}}
 ```
 + 分子の差分値 $f(\boldsymbol{x} - \boldsymbol{h}) - f(\boldsymbol{x})$ で, 桁落ちするので精度が低い微分値を算出する.
 + できるだけ解析微分公式(導関数)を用いて微分値を算出すべき.
 
-## 微分の連鎖律
+### 微分の連鎖律
 ```math
 \begin{eqnarray}
     y &=& f(x), x = g(t)
@@ -23,6 +24,13 @@
     \frac{dy}{dt} &=& -6x
 \end{eqnarray}
 ```
+
+### 数値微分
++ 愚直法
++ Runge-Kutta法(1次,2次,3次,4次) (デファクトスタンダード)
+
+### ヤコビ行列(ヤコビアン)
++ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした関数群 $ f_{1}(\boldsymbol{x}), f_{2}(\boldsymbol{x}),..., f_{n}(\boldsymbol{x}) $ を考える.
 
 ## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
 ```math
@@ -38,11 +46,11 @@
 + マクローリン展開は $\boldsymbol{a}=\boldsymbol{0}$ 周りのテーラー展開
 
 
-## 数値微分
-+ 愚直法
-+ Runge-Kutta法(1次,2次,3次,4次) (デファクトスタンダード)
+## 積分
+### 解析積分(積分公式)
++
 
-## 数値積分
+### 数値積分
 + ニュートン・コーツ法
 + 台形公式法
 + シンプソンの公式法
