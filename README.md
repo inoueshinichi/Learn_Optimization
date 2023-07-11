@@ -33,6 +33,8 @@
 
 \end{eqnarray}
 ```
++ マクローリン展開は $\boldsymbol{a}=\boldsymbol{0}$ 周りのテーラー展開
+
 
 ## 数値微分
 + 愚直法
