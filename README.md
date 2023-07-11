@@ -1,9 +1,16 @@
-# Optimization (数理最適化手法)
+# (連続)最適化手法
 
 ## 参考
++
+
 
 ## 微分
 ### 解析微分公式(導関数)
+```math
+    f'(\boldsymbol{x}) = \frac{\partial f(\boldsymbol{x})}{\partial x}
+```
+
+### 数値微分公式
 ```math
     f'(\boldsymbol{x})= \lim_{\boldsymbol{h} \to \boldsymbol{0}} \ \frac{f(\boldsymbol{x}-\boldsymbol{h}) - f(\boldsymbol{x})}{\boldsymbol{h}}
 ```
