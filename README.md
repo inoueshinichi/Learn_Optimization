@@ -24,6 +24,14 @@
 \end{eqnarray}
 ```
 
+## $\boldsymbol{x}=\boldsymbol{a}$ 周りのテイラー展開
+```math
+\begin{eqnarray}
+    f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a}}{n!}
+
+\end{eqnarray}
+```
+
 ## 数値微分
 + 愚直法
 + Runge-Kutta法(1次,2次,3次,4次) (デファクトスタンダード)
