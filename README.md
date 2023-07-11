@@ -15,7 +15,7 @@
     y &=& f(x), x = g(t)
     \
     \frac{dy}{dt} &=& \frac{dy}{dt} * \frac{dt}{dx}
-    \
+    \\
     y &=& (1 - \boldsymbol{x})^{2}, x = 3t + 2 \tag{e.g}
     \
     \frac{dy}{dt} &=& -2x, \frac{dx}{dt} = 3
