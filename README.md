@@ -44,7 +44,7 @@
 ```
 
 ### ヘッセ行列(ヘシアン)
-+ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした多変数関数 $ f(\boldsymbol{x}) $ を考える
++ ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした多変数関数 $f(\boldsymbol{x})$ を考える
 + 多変数関数 $ f(\boldsymbol{x}) $ の2回微分
 + $\boldsymbol{H}(\boldsymbol{x}) \in R^{ d \times d}$
 ```math
