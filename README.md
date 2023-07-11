@@ -32,7 +32,7 @@
 ### ヤコビ行列(ヤコビアン)
 + ベクトル変数 $\boldsymbol{x}=(x_{1},x_{2},...,x_{d})$ を入力とした関数群 $f_{1}(\boldsymbol{x}), f_{2}(\boldsymbol{x}),..., f_{n}(\boldsymbol{x})$ を考える.
 + 多変数関数の1回微分(行ベクトル)の列ベクトル
-+ $\boldsymbol{J}(\boldsymbol{x}) \in R^{n \cross d}$
++ $\boldsymbol{J}(\boldsymbol{x}) \in R^{n \times d}$
 ```math
 \boldsymbol{J}(\boldsymbol{x}) =
 \begin{pmatrix}
