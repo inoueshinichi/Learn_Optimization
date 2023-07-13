@@ -75,15 +75,14 @@
 表現2($\delta{h}=\boldsymbol{x}-\boldsymbol{a}$)<br>
 ```math
 \begin{eqnarray}
-    f(\boldsymbol{a} + \delta{h}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}\delta^{n} \
-    &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{h} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{h}^{2}
-    + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{h}^{3} + \cdots \
-    &=& \sum^{\infty}_{n=0}(\nabla)^{n}\frac{f(\boldsymbol{a})}{n!}\delta{h}^{n} \
+    f(\boldsymbol{a} + \delta{\boldsymbol{h}}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}\delta{\boldsymbol{h}}^{n} \
+    &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{h} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{\boldsymbol{h}}}^{2}
+    + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{\boldsymbol{h}}^{3} + \cdots \
+    &=& \sum^{\infty}_{n=0}(\nabla)^{n}\frac{f(\boldsymbol{a})}{n!}\delta{\boldsymbol{h}}^{n} \
 \therefore　\nabla &=& (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
 \end{eqnarray}
 ```
-
-
++ 階数が増加するに従って, 微小量$\delta{\boldsymbol{h}}=(\boldsymbol{x}-\boldsymbol{a})$
 + マクローリン展開は $\boldsymbol{a}=\boldsymbol{0}$ 周りのテーラー展開
 
 ## 制約なし非線形問題
