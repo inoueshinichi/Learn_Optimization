@@ -76,7 +76,7 @@
 ```math
 \begin{eqnarray}
     f(\boldsymbol{a} + \delta{\boldsymbol{h}}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}\delta{\boldsymbol{h}}^{n} \
-    &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{h} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{\boldsymbol{h}}}^{2}
+    &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{\boldsymbol{h}} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{\boldsymbol{h}}^{2}
     + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{\boldsymbol{h}}^{3} + \cdots \
     &=& \sum^{\infty}_{n=0}(\nabla)^{n}\frac{f(\boldsymbol{a})}{n!}\delta{\boldsymbol{h}}^{n} \
 \therefore　\nabla &=& (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
