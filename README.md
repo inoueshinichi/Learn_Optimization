@@ -82,7 +82,7 @@
 \therefore　\nabla &=& (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
 \end{eqnarray}
 ```
-+ 階数が増加するに従って, 微小量$\delta{\boldsymbol{h}}=(\boldsymbol{x}-\boldsymbol{a})$
++ 階数が増加するに従って, 微小量 $\delta{\boldsymbol{h}}=(\boldsymbol{x}-\boldsymbol{a})$ は急激にゼロに近づく
 + マクローリン展開は $\boldsymbol{a}=\boldsymbol{0}$ 周りのテーラー展開
 
 ## 制約なし非線形問題
