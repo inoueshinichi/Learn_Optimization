@@ -77,7 +77,8 @@
 \begin{eqnarray}
     f(\boldsymbol{a} + \delta{h}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}\delta^{n} \
     &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{h} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{h}^{2}
-    + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{h}^{3} + \cdots 
+    + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{h}^{3} + \cdots \
+    &=& \sum^{\infty}_{n=0}(\nabla)^{n}\frac{f(\boldsymbol{a})}{n!}\delta{h}^{n}
 \end{eqnarray}
 ```
 
