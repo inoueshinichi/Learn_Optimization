@@ -68,8 +68,8 @@
     f(\boldsymbol{x}) &=& \sum^{\infty}_{n=0}\frac{f^{(n)}(\boldsymbol{a})}{n!}(\boldsymbol{x} - \boldsymbol{a})^{n} \
     &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a}) + \frac{f^{''}(\boldsymbol{a})}{2!}(\boldsymbol{x} - \boldsymbol{a})^{2}
     + \frac{f^{'''}(\boldsymbol{a})}{3!}(\boldsymbol{x} - \boldsymbol{a})^3 + \cdots \
-    &=& \sum^{\infty}_{n=0}(\nabla)^{n}f(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a})^{n}
-    \nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
+    &=& \sum^{\infty}_{n=0}(\nabla)^{n}f(\boldsymbol{a})(\boldsymbol{x}-\boldsymbol{a})^{n} \
+    \therefore　\nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
 \end{eqnarray}
 ```
 表現2($\delta{h}=\boldsymbol{x}-\boldsymbol{a}$)<br>
@@ -79,6 +79,7 @@
     &=& f(\boldsymbol{a}) + f^{'}(\boldsymbol{a})\delta{h} + \frac{f^{''}(\boldsymbol{a})}{2!}\delta{h}^{2}
     + \frac{f^{'''}(\boldsymbol{a})}{3!}\delta{h}^{3} + \cdots \
     &=& \sum^{\infty}_{n=0}(\nabla)^{n}\frac{f(\boldsymbol{a})}{n!}\delta{h}^{n}
+\therefore　\nabla = (\frac{\partial}{\partial x_{1}}, \frac{\partial}{\partial x_{2}}, \ldots, \frac{\partial}{\partial x_{d}})
 \end{eqnarray}
 ```
 
